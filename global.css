@@ -1,0 +1,84 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  line-height: normal;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Brand */
+  --orange: #ff7900;
+  --orange-dark: #d96300;
+  --orange-light: #ff9a3c;
+  --orange-glow: rgba(255,121,0,0.22);
+
+  /* Neutrals */
+  --black: #0a0a0a;
+  --dark: #111318;
+  --dark-2: #1a1d24;
+  --dark-3: #22262f;
+  --dark-card: #161a21;
+  --mid: #4a4e5a;
+  --light: #f4f5f7;
+  --white: #ffffff;
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255,255,255,0.65);
+  --text-muted: rgba(255,255,255,0.38);
+  --text-dark: #0a0a0a;
+  --text-dark-secondary: rgba(10,10,10,0.6);
+
+  /* Borders */
+  --border: rgba(255,255,255,0.10);
+  --border-strong: rgba(255,255,255,0.20);
+  --border-orange: rgba(255,121,0,0.35);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.18);
+  --shadow-md: 0 8px 32px rgba(0,0,0,0.28);
+  --shadow-lg: 0 20px 60px rgba(0,0,0,0.4);
+  --shadow-orange: 0 8px 32px rgba(255,121,0,0.30);
+
+  /* Radius */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-xl: 24px;
+
+  /* Spacing */
+  --page-pad: 80px;
+  --section-pad: 120px;
+  --container: 1280px;
+  --max-content: 780px;
+
+  /* Legacy compat */
+  --Color-Flush-Orange: #ff7900;
+  --Color-Neutral-Darkest: #0a0a0a;
+  --Color-White: #ffffff;
+  --Opacity-Neutral-Darkest-15: rgba(0,0,0,0.15);
+  --Opacity-Transparent: rgba(255,255,255,0);
+  --Opacity-White-20: rgba(255,255,255,0.2);
+  --Opacity-White-60: rgba(255,255,255,0.6);
+  --Container-container-large: 1280px;
+  --Max-Width-max-width-large: 768px;
+  --Page-Padding-padding-global: 80px;
+  --Radius-Large: 16px;
+  --Radius-Medium: 10px;
+  --Section-Padding-padding-section-large: 120px;
+  --Section-Padding-padding-section-medium: 80px;
+  --Stroke-Border-Width: 1px;
+  --Text-Sizes-Heading-1: 80px;
+  --Text-Sizes-Heading-2: 56px;
+  --Text-Sizes-Heading-3: 44px;
+  --Text-Sizes-Heading-4: 36px;
+  --Text-Sizes-Heading-5: 28px;
+  --Text-Sizes-Heading-6: 22px;
+  --Text-Sizes-Text-Large: 22px;
+  --Text-Sizes-Text-Medium: 18px;
+  --Text-Sizes-Text-Regular: 16px;
+  --Text-Sizes-Text-Small: 14px;
+  --Text-Sizes-Text-Tiny: 11px;
+}
+
